@@ -1,4 +1,99 @@
 body{
     margin: 0px;
     padding: 0px;
+    min-height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color:cyan;
+    margin: 10px;
+    padding: 20px;
+}
+.icon-home{
+    height: 30px;
+}
+.icon-user{
+    height: 30px;
+}
+.header-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-logo{
+    padding: 0px 30px;
+}
+
+.main-logo h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tag-line{
+    margin-left: 2px;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.intro-left{
+    width: 50vh;
+}
+
+button{
+    padding:8px;
+    border: solid 1px;
+    border-radius: 10px;
+    color: blue;
+}
+
+button:hover{
+    transition: 0.3s;
+    transform: scale(1.025);
+    box-shadow: 0px 0px 0.5px 1px black;
+}
+
+.it-services-img{
+    height: 400px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 10px;
+    justify-content:space-around;
+    background-color: cyan;
+    bottom: 10px;
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-quick-links a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    margin-bottom: 15px;
+}
+
+
+.link-name:hover{
+    transform: translateX(2px);
+}
+
+.social-icons{
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.social-icons:hover{
+    
+    transform: translateX(2px);
 }
