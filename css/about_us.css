@@ -1,0 +1,14 @@
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+h1 {
+    color: #0072c6;
+}
+p {
+    line-height: 1.6;
+}
